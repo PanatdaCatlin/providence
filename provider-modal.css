@@ -1,0 +1,86 @@
+footer #wh-modal .odhp-widget-visit-message {
+  color: #333;
+}
+
+footer #wh-modal a {
+  color: #004b8d;
+}
+
+
+.wh-modal {
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  color: black;
+}
+
+/* Modal Content */
+.wh-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 10px 20px 20px 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+#wh-modal-title {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+#wh-not-accept-new-patients {
+  color:red;
+}
+
+/* The Close Button */
+.wh-modal-close {
+  color: #989898;
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  text-align: right;
+}
+
+.wh-modal-close:hover,
+.wh-modal-close:focus {
+  color: #ddd;
+  text-decoration: none;
+  cursor: pointer;
+}
+.wh-modal-card {
+  border: 1px solid lightgrey;
+  padding: 11px;
+  margin-bottom: 7%;
+  padding-bottom: 7%;
+}
+span.wh-next-opening {
+  font-weight: bold;
+  font-size: 15px;
+}
+.wh-modal-card button {
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  line-height: 10px;
+  background: #56a1d5;
+  height: 42px;
+  margin-bottom: 3%;
+}
+.wh-button-disabled {
+  color: red;
+  background-color: gray;
+}
+
+@media (min-width: 768px) {
+  .wh-modal-content {
+    width: 36%;
+    height: 68%;
+  }
+}

@@ -1,0 +1,75 @@
+#wh-sponsored-results {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.wh-sponsored-header {
+  background-color: #0a4479;
+  text-align: center;
+  color: #fff;
+  font-family: helvetica;
+  font-size: 2.5vmin;
+  font-weight: 600;
+  padding: 2px;
+  line-height: 22px;
+}
+.wh-sponsored-bottom {
+  border: 1px solid #d0d2d7;
+  padding: 30px 5px 30px 30px;
+}
+.wh-sponsored-box {
+  border: 1px solid #d0d2d7;
+  padding: 6% 6% 6% 10%;
+  text-align: center;
+  margin-right: 4%;
+  font-size: 1.3vmin;
+}
+img.wh-profile-photo-image.img-responsive {
+  width: 100px;
+  min-height: 129px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px;
+  border: 1px solid #d0d2d7;
+  border-radius: 5px;
+}
+.wh-doctor-review.col-xs-12 {
+  min-height: 13px;
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #006FAA;
+}
+.wh-doctor-name.col-xs-12 {
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  padding-bottom: 4%;
+}
+.wh-doctor-job-title.col-xs-12 {
+  color: #737273;
+  min-height: 15.375px;
+}
+span.wh-ok-circle-icon.glyphicon.glyphicon-ok-circle {
+  font-size: 14px;
+}
+span.wh-next-opening {
+  font-weight: bold;
+  letter-spacing: 0.25px;
+}
+img#wh-calendar-icon {
+  width: 14px;
+}
+.wh-opening-date.col-xs-12 {
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  padding-bottom: 4%;
+}
+a.wh-book-button.btn.col-xs-12 {
+  background-color: #ffa400;
+  color: white;
+  padding: 5% 10% 5% 10%;
+  text-overflow: unset;
+  line-height: 10%;
+  border-radius: 1px;
+  font-size: 1.5vmin;
+  font-weight: bold;
+  width: 95%;
+}
